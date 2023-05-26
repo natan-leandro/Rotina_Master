@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Projeto principal Natã</string>
+    <string name="login">Login</string>
+    <string name="criar_conta">Criar conta</string>
+    <string name="esqueceu_a_senha">Esqueceu a senha?</string>
+    <string name="bem_vindo_ao_organizador_de_rotinas">Bem vindo ao organizador de rotinas</string>
+    <string name="calend_rio">Calendário</string>
+    <string name="email">Email</string>
+    <string name="entrar">Entrar</string>
+    <string name="senha">Senha</string>
+    <string name="bem_vindo_ao_organizador_de_tarefas">Bem vindo ao organizador de tarefas</string>
+    <string name="android">Android</string>
+    <string name="pequeno_easter_egg">Pequeno Easter Egg</string>
+    <string name="todo">TODO</string>
+    <string name="crie_sua_conta_aqui">Crie sua conta aqui</string>
+    <string name="criar_conta2">Criar Conta</string>
+    <string name="adicionar_tarefa">Adicionar tarefa</string>
+    <string name="digite_a_tarefa">Digite a Tarefa:</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/amarelo"
+    tools:context=".MenuInicial">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <SearchView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:outlineSpotShadowColor="@color/white"/>
+
+            <Button
+                android:id="@+id/btAdicionarTarefa"
+                android:layout_width="200dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_height="match_parent"
+                android:text="@string/adicionar_tarefa"
+                android:backgroundTint="@color/ciano"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/Tarefas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:textSize="18sp"
+                tools:text="As tarefas aparecerão aqui"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
